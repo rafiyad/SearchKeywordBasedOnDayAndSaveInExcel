@@ -48,7 +48,7 @@ public class SearchKeywordBasedOnDayAndSaveInExcel {
     public static void main(String[] args){
 
         //Finding current file path and                      adding folder location in the end
-        String rootPath = System.getProperty("user.dir")+"\\SearchKeywordBasedOnDayAndSaveInExcel\\datafiles";
+        String rootPath = System.getProperty("user.dir")+"\\datafiles";
         System.out.println(rootPath);
         String filePath = rootPath+"\\4BeatsQ1.xlsx";
         String webDriverPath =rootPath+"\\geckodriver.exe";
