@@ -8,6 +8,7 @@
 
 Before you start, make sure you have the following installed:
 
+- You have to give your file location
 - JDK 11 or later
 - Apache Maven
 - A web browser (e.g., Chrome, Firefox) and the corresponding WebDriver (e.g., `chromedriver`, `geckodriver`)
