@@ -47,7 +47,7 @@ public class SearchKeywordBasedOnDayAndSaveInExcel {
 
     public static void main(String[] args){
 
-        //file path of my work, change path according to your file locations
+        //Finding current file path and                      adding folder location in the end
         String rootPath = System.getProperty("user.dir")+"\\SearchKeywordBasedOnDayAndSaveInExcel\\datafiles";
         System.out.println(rootPath);
         String filePath = rootPath+"\\4BeatsQ1.xlsx";
