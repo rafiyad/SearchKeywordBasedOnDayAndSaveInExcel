@@ -122,7 +122,6 @@ public class SearchKeywordBasedOnDayAndSaveInExcel {
                 }
                 //Writing the highest value in the excel
                 fis.close();
-                System.out.println("All files written successfully");
             }
 
         } catch (IOException e) {
@@ -130,6 +129,6 @@ public class SearchKeywordBasedOnDayAndSaveInExcel {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
+        System.out.println("All files written successfully");
     }
 }
