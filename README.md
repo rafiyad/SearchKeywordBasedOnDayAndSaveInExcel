@@ -21,6 +21,8 @@ Before you start, make sure you have the following installed:
 - A web browser (e.g., Chrome, Firefox) and the corresponding WebDriver (e.g., `chromedriver`, `geckodriver`)
 - Reload pom.xml
 
+![Github](https://github.com/user-attachments/assets/c7e4b636-169a-4627-ae2a-4b32e3763a03)
+
 ## Installation
 
 1. **Clone the Repository**
