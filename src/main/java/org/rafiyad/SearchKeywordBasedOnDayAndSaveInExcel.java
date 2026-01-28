@@ -50,7 +50,7 @@ public class SearchKeywordBasedOnDayAndSaveInExcel {
         //Finding current file path and                      adding folder location in the end
         String rootPath = System.getProperty("user.dir")+"\\datafiles";
         System.out.println(rootPath);
-        String filePath = rootPath+"\\4BeatsQ1.xlsx";
+        String filePath = rootPath+"\\sheet.xlsx";
         String webDriverPath =rootPath+"\\geckodriver.exe";
 
         //Setting up the webdriver for automation and
@@ -85,7 +85,7 @@ public class SearchKeywordBasedOnDayAndSaveInExcel {
 
                         //Luching the web browser and wait for 2 seconds
                         WebDriver driver = new FirefoxDriver();
-                        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+                        driver.manage().timeouts().implicitlyWait(500, TimeUnit.MILLISECONDS);
                         driver.get("http://www.google.com/en");
 
                         //Search box class id to locate search box in the browser

@@ -16,6 +16,7 @@
 
 Before you start, make sure you have the following installed:
 
+- Windows 8 or later
 - JDK 17 or later
 - Apache Maven
 - A web browser (e.g., Chrome, Firefox) and the corresponding WebDriver (e.g., `chromedriver`, `geckodriver`)
