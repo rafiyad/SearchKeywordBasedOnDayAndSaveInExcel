@@ -85,7 +85,7 @@ public class SearchKeywordBasedOnDayAndSaveInExcel {
 
                         //Luching the web browser and wait for 2 seconds
                         WebDriver driver = new FirefoxDriver();
-                        driver.manage().timeouts().implicitlyWait(500, TimeUnit.MILLISECONDS);
+                        driver.manage().timeouts().implicitlyWait(100, TimeUnit.MILLISECONDS);
                         driver.get("http://www.google.com/en");
 
                         //Search box class id to locate search box in the browser
